@@ -1,19 +1,27 @@
 # Dependencies
 node_modules/
 
-# Production Build
-dist/
-
 # Environment Variables
 .env
-.env.local
 
 # Logs
+logs/
 *.log
 
-# IDE
-.vscode/
-.idea/
+# Coverage
+coverage/
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+
+# Nodemon
+.nodemon
+
+# MongoDB
+*.wt
+*.lock
 
 # OS Files
 .DS_Store
